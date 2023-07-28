@@ -1,0 +1,33 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--nord4);
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 5px 5px;
+}
+
+.post-title {
+    font-weight: 600;
+}
+
+.post-user {
+    text-decoration: underline;
+}
+
+.post-body {
+    margin-top: 10px;
+}
+
+.post > img {
+    align-self: flex-end;
+    width: 15px;
+    height: 15px;
+    background-color: var(--nord4);
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+
+.post > img:hover {
+    cursor: pointer;
+}
